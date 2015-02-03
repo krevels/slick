@@ -2133,8 +2133,12 @@
         return _;
     };
 
+    $.fn.slick.Constructor = Slick;
+
     $(function(){
         $('[data-slick]').slick();
     });
+
+
 
 }));
